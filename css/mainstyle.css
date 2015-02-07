@@ -1,0 +1,59 @@
+.mylink
+{
+	padding: 10px;
+color: #748533;
+background: lime;
+border: 1px solid #333;
+border-radius: 3px;
+margin: 30px;
+font-size: 30px;
+}
+
+@media screen and (max-width: 480px){
+.mylink {
+
+color: #00ffff! important;
+background: #000;
+}
+}
+	@media screen and (min-width: 640px) and (max-width: 800px){
+	.mylink {
+
+color: #00ff00! important;
+background-color: red;
+}
+}
+
+	@media screen and (max-width: 540px){
+.grid li {
+}
+}
+
+@media screen and (max-width: 541px) and (max-width: 800px){
+	.grid li { 
+		width: 45%;
+		 float: left;
+		 margin: 5px ! important
+	}
+.grid li a img {
+	position: relative;
+	float: none;
+	max-width: 100px;
+	max-height: 100px;
+}
+.grid li a{
+	padding: 10px!important;
+}
+
+@media (min-width: 801px){
+
+.grid li { 
+		width: 30%;
+		 float: left;
+		 margin: 5px ! important
+	}
+}
+
+
+
+
